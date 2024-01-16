@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 40px;
+    width: 100%;
+   background-color: rgb(255, 84, 218);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  
+   z-index: 30;
+   top: 0;
+}
+
+.nav1{
+    margin-left: 25px;
+   
+}
+
+.nav1 a{
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: 0.5s;
+}
+
+.nav1 a:hover{
+    background-color: black;
+    color: aliceblue;
+    box-shadow: 2px 2px 3px rgb(29, 201, 155);
+    border-radius: 5px;
+}
+
+.nav2{
+    margin-right: 65px;
+}
+.nav2 input{
+    margin-right: 50px;
+    width: 265px;
+    border-radius: 15px;
+    border: none;
+}
+
+.nav2 button{
+    margin-right: 10px;
+    width: 65px;
+    background-color: rgb(127, 72, 245);
+    box-shadow: 2px 2px 4px red;
+    color: aliceblue;
+    border-radius: 5px;
+    
+}
+
+
+
+
+.main0{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+     margin-left: 10%;
+     width:80%;
+     gap: 10px 15px;
+     margin-top: 100px;
+     margin-bottom: 100px;
+
+}
+
+.maindiv{
+    width: 100%;
+    height: 300px;
+    position: relative;
+  
+}
+
+.maindiv>img{  
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.sidediv{
+    position: absolute;
+    overflow: hidden;
+    background-color: #000000;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    transition: .5s ;
+
+}
+
+.maindiv:hover .sidediv{
+    height: 100%;
+    opacity: 0.5;
+}
+
+.maindiv:hover .underdiv{
+   opacity: 1;
+    
+}
+
+.underdiv{
+    position: absolute;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.underdiv button{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 5, 8);
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: 2px 5px 2px rgb(0, 0, 1)28, 28, 35);
+}
+
+
+
+
+
+.abouth{
+    margin-top: 10px;
+    text-align: center;
+    color: rgb(69, 69, 252);
+    font-size: 25px;
+}
+
+.abouth span{
+     
+    font-family: cursive;
+    color: rgb(254, 57, 244);
+}
+
+
+.about{
+    width: 100%;
+    height: 400px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.about1{
+    width: 50%;
+   
+
+}
+
+.about1 img{
+
+    height: 100%;
+    margin-left: 160px;
+    transition: 0.5s;
+ 
+}
+
+.about1 img:hover{
+   transform: scale(1.1);
+ 
+}
+
+.about2{
+    width: 50%;
+    margin-right: 50px;
+    margin-top: 90px;
+    float: right;
+
+
+}
+.about2 p{
+  font-size: 20px;
+
+
+}
+
+.about2 button{
+    width: 120px;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 4px ;
+    font-size: 15px;
+    margin-top: 15px;
+    border-radius: 25px 10px;
+    box-shadow: 2px 3px 6px red;
+}
+
+.serviceh{
+    
+    text-align: center;
+    font-size: 20px;
+    margin-top: 6px;
+    margin-bottom: 70px;
+
+}
+
+.service{
+    width: 90%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 5%;
+    gap: 30px 66px;
+    background-color: rgb(244, 241, 241);
+    padding: 90px;
+    margin-bottom: 70px;
+}
+
+.service1{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+    box-shadow: 3px 2px 6px rgb(0, 0, 10);
+    transition: 0.5s;
+}
+
+.service1:hover{
+    transform: scale(1.1);
+   
+}
+
+.service11{
+    width: 100%;
+    height: 50%;
+}
+.service11 img{
+    width: 100%;
+    height: 100%;
+}
+.service12{
+    width: 100%;
+    height: 50%;
+    text-align: center;
+}
+
+.service12 h2{
+   color: rgb(26, 103, 255);
+   margin: 10px auto;
+}
+
+.serviceh{
+    margin-top: 80px;
+    text-align: center;
+    color: rgb(69, 69, 252);
+    font-size: 25px;
+}
+
+.serviceh span{
+     
+    font-family: cursive;
+    color: rgb(254, 57, 244);
+}
+
+
+.contacth{
+    margin-top: 150px;
+    text-align: center;
+    color: rgb(69, 69, 252);
+    font-size: 25px;
+}
+
+.contacth span{
+     
+    font-family: cursive;
+    color: rgb(254, 57, 244);
+}
+
+
+
+
+.s1{
+  margin-left: 60px;
+   margin-top: 20px;
+}
+.c1{
+    padding-top: 50px;
+}
+
+.c1 input{
+    width: 500px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.c2 input{
+    width: 500px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.c3 textarea{
+    width: 500px;
+    height: 300px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact{
+
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 60px;
+    margin-bottom: 50px;
+    height: 600px; 
+    background-color: rgb(226, 226, 221);
+}
+.contact1{
+    width: 50%;
+    height: 100%;
+    float: left;
+   
+}
+
+.contact2{
+    width: 40%;height: 100%;
+    float: right;
+    top: 0;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+
+.contact2 img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.last{
+    height: 100PX;
+    width: 100%;
+    background-color: #000000;
+}
+.last1{
+    height: 50%;
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.last1 img{
+    height: 30px;
+    width: 30PX;
+    border-radius: 50%;
+    margin-top: 15PX;
+    padding: 3PX;
+    
+}
+.last2{
+    height: 50%;
+    width: 100%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.submit{
+  background-color: rgb(2, 10, 10);
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 80px;
+  color: aliceblue;
+  border-radius: 10px 145px;
+
+}
